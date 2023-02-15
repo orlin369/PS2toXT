@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:nano",
+    "sketch": "firmware\\PS2toXT\\PS2toXT.ino"
+}
