@@ -1,4 +1,6 @@
 {
-    "board": "arduino:avr:nano",
-    "sketch": "firmware\\PS2toXT\\PS2toXT.ino"
+    "sketch": "firmware\\PS2toXT\\PS2toXT.ino",
+    "port": "COM5",
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano"
 }
