@@ -65,7 +65,7 @@ void send_xt_kbd(unsigned char value);
 void setup()
 {
 #ifdef DEBUG
-    Serial.begin(9600);
+    Serial.begin(DEBUG_BAUD);
 #endif
 
     setup_trans_table();
@@ -354,7 +354,7 @@ void setup_xt_kbd()
 void send_xt_kbd(unsigned char value)
 {
 
-#ifdef DUMMY_SEND
+#ifdef NO_SEND
     return;
 #endif
 

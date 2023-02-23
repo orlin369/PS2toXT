@@ -7,13 +7,19 @@
  * @brief If uncomment then no XT data will be send through the interface.
  * 
  */
-#define DUMMY_SEND
+// #define NO_SEND
 
 /**
  * @brief Send data via serial port what is going on.
  * 
  */
 #define DEBUG
+
+/**
+ * @brief Debug port baud rate.
+ * 
+ */
+#define DEBUG_BAUD 9600
 
 /**
  * @brief XT byte size.
@@ -31,7 +37,7 @@
  * @brief PS CLOCK DATA
  * 
  */
-#define PIN_PS_CLK 2
+#define PIN_PS_CLK 3
 
 /**
  * @brief PS DATA PIN
@@ -43,7 +49,7 @@
  * @brief XT CLOCK PIN
  * 
  */
-#define PIN_XT_CLK 3
+#define PIN_XT_CLK 2
 
 /**
  * @brief XT DATA PIN
